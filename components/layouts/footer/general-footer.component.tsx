@@ -26,7 +26,7 @@ const GeneralFooter = () => {
         sx={{ textDecoration: "none" }}
       >
         Powered by{" "}
-        <Box
+        <Box 
           ml={"0.5rem"}
           display={"flex"}
           alignItems="center"

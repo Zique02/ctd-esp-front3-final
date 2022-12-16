@@ -11,7 +11,7 @@ interface BodySingleProps extends PropsWithChildren {
 const BodySingle: FC<BodySingleProps> = ({
   title,
   containerProps,
-  children,
+  children
 }: BodySingleProps) => {
   return (
     <Container maxWidth="xl" {...containerProps}>
@@ -21,7 +21,7 @@ const BodySingle: FC<BodySingleProps> = ({
             variant={"h2"}
             my={2}
             textAlign={"center"}
-            fontSize={28}
+            fontSize={40}
             fontWeight={600}
           >
             {title}

@@ -5,6 +5,7 @@ import Box from "@mui/material/Box";
 import GeneralHeader from "dh-marvel/components/layouts/header/general-header.component";
 import GeneralFooter from "dh-marvel/components/layouts/footer/general-footer.component";
 
+
 const LayoutGeneral: FC<PropsWithChildren> = ({
   children,
 }: PropsWithChildren) => {
