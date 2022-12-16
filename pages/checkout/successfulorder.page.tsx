@@ -12,6 +12,7 @@ export default function SuccessFullOrder() {
         <Container>
             <Head>
                 <title>DH-Marvel | Aproveite!</title>
+                <link rel="icon" href="/favicon.ico" />
             </Head>
             <Container sx={{
                 width: '500px', height: '100px', margin: '20px auto', display: 'flex', alignItems: 'center', justifyContent: 'center',

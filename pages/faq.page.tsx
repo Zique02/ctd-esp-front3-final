@@ -9,7 +9,8 @@ export default function Faq() {
 
         <Container sx={{ width: '100%', margin: '40px' }}>
             <Head>
-                <title>Marvel - FAQ</title>
+                <title>DH-Marvel | FAQ</title>
+                <link rel="icon" href="/favicon.ico" />
             </Head>
 
             {faqsData.map(faq => (

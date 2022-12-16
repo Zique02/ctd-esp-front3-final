@@ -41,6 +41,7 @@ export default function CharacterDetail({ data }: PropsDetails) {
 
             <Head>
                 <title>{`DH-Marvel | ${character?.name}`}</title>
+                <link rel="icon" href="/favicon.ico" />
             </Head>
             <Container sx={{ marginTop: "10px" }}>
                 <Typography fontSize={32} fontWeight="bold">

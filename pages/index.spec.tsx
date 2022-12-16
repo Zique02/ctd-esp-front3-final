@@ -15,13 +15,7 @@ describe("IndexPage", () => {
           </QueryClientProvider>
         );
 
-        const title = screen.getByText(/Seja bem vindo ao DH Marvel/i);
-        const buttonloadingMoreComics = screen.getByRole('button', { name: "Carregar mais + 12..." })
-        await userEvent.click(buttonloadingMoreComics)
-        const buttonloadingLessComics = screen.getByRole('button', { name: "Carregar menos - 12..." })
-        await userEvent.click(buttonloadingLessComics)
-
-
+        const title = screen.getByText(/Obras da Marvel Comics/i);
 
         await waitFor(() => {
           expect(title).toBeInTheDocument()

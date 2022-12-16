@@ -82,6 +82,7 @@ export default function Checkout({ data }: PropsDetails) {
         <Container sx={{ display: 'flex', flexDirection: 'column' }}>
             <Head>
                 <title>DH-Marvel | Carrinho </title>
+                <link rel="icon" href="/favicon.ico" />
             </Head>
 
             <Container sx={{

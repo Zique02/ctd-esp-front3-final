@@ -39,6 +39,7 @@ export default function ComicDetail(props: PropsDetails) {
         <Container sx={{ display: 'flex', flexDirection: 'column' }}>
             <Head>
                 <title>DH-Marvel | Detalhes</title>
+                <link rel="icon" href="/favicon.ico" />
             </Head>
 
             <Typography
